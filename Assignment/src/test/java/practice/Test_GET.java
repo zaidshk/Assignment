@@ -74,8 +74,6 @@ public class Test_GET extends BaseClass {
 		}
 
 		// programType: EPISODE or MOVIE or SERIES or SEASON
-		
-
 		List<List<HashMap<String, Object>>> propListofList = js.get("promotions.properties");
 		for (List<HashMap<String, Object>> propList : propListofList) {
 			for (HashMap<String, Object> prop : propList) {
