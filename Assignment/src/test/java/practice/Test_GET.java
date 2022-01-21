@@ -55,7 +55,7 @@ public class Test_GET extends BaseClass {
 		}
 	}
 
-	//Assert promotionId: any string value,
+	// Assert promotionId: any string value,
 	@Test
 	void test_2() {
 
