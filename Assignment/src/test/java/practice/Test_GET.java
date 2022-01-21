@@ -62,7 +62,6 @@ public class Test_GET extends BaseClass {
 		String res = given().when().get(URI).then().extract().response().asString();
 
 		JsonPath js = new JsonPath(res);
-
 		int Count = js.get("promotions.promotionId.size()");
 
 		System.out.println(res);
